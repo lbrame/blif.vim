@@ -1,0 +1,5 @@
+This plugin seeks to provide syntax highlighting for the BLIF (Berkeley Logic Interchange Format) for vim and neovim text editors.
+
+The BLIF language has been created at the University of California, Berkeley. This is a student-made plugin made from a student at the University of Verona, Italy.
+
+The BLIF language is commonly used in conjunction with the CAD program sis (https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/2010.html) and other derivates of it.
