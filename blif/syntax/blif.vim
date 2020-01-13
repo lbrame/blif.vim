@@ -9,6 +9,7 @@ endif
 
 " Define various blif keywords. Long list and ugly regex hack because most
 " programming and markup languages don't have keywords starting with a dot.
+syn match       comment "#.*$"
 syn match       model "\.model"
 syn match       end "\.end"
 syn match       inputs "\.inputs"
@@ -42,6 +43,7 @@ syn match       default_output_load "\.default_output_load"
 
 " Syntax highiighting
 let b:current_syntax = "blif"
+hi def link comment             Comment
 hi def link model               PreProc
 hi def link end                 PreProc
 hi def link inputs              Type
