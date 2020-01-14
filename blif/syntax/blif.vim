@@ -12,6 +12,11 @@ endif
 syn match       comment "#.*$"
 syn match       model "\.model"
 syn match       end "\.end"
+syn match       i "\.i"
+syn match       o "\.o"
+syn match       s "\.s"
+syn match       p "\.p"
+syn match       r "\.r"
 syn match       inputs "\.inputs"
 syn match       outputs "\.outputs" 
 syn match       names "\.names"
@@ -46,6 +51,11 @@ let b:current_syntax = "blif"
 hi def link comment             Comment
 hi def link model               PreProc
 hi def link end                 PreProc
+hi def link i                   Statement
+hi def link o                   Statement
+hi def link s                   Statement
+hi def link p                   Statement
+hi def link r                   Statement
 hi def link inputs              Type
 hi def link outputs             Type
 hi def link names               Type
