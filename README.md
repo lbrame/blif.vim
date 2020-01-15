@@ -1,8 +1,10 @@
 # blif.vim
 
-`blif.vim` is a plugin to provide syntax highlighting for the [blif language](https://www2.eecs.berkeley.edu/Pubs/TechRpts/1992/2010.html) from U.C. Berkeley. Once installed, `.blif` files opened in `vim` or `nvim` will be displayed with syntax highlighting correctly.
+`blif.vim` is a plugin to provide syntax highlighting for the [blif language](http://www1.cs.columbia.edu/~%20cs6861/sis/blif/) from U.C. Berkeley. Once installed, `.blif` files opened in `vim` or `nvim` will be displayed with syntax highlighting correctly.
 
 This plugin supports both `vim` and `neovim`.
+
+If you prefer using `nano`, you might want to check out [blif.nanorc](https://gist.github.com/Microeinstein/c22e0d71806486a967b98261dffc7f97)
 
 ## Installation instructions
 
